@@ -6,8 +6,40 @@
   margin-bottom: 15px;
 }
 
+.left-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
 .title {
-  color: #000000;
+  margin-left: 10px;
+  color: #000;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.edit-input {
+  margin-left: 10px;
+  padding: 6px;
+  width: 250px;
+}
+
+.buttons-container {
+  display: flex;
+}
+
+.edit-button {
+  background-color: #0b69ff;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 4px;
 }
 
 .delete-button {
